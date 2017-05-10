@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+}
+
+.background{
+    background-image: url(http://wallpaper-gallery.net/images/windows-background-wallpaper/windows-background-wallpaper-19.jpg);
+    display: flex;
+    background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.background-overlay{
+    margin-top: 90px;
+}
+
+.emoji{
+    width: 15px;
+    height: 15px;
+}
+
+
+.left{
+    position: absolute;
+    right: 50px;
+}
+
+.right{
+    position: relative;
+    left: 500px;
+    float: right;
+}
+
+
+.columns{
+    margin-top:50px;
+}
+
+.column1{
+    text-align: left;
+    margin-left: 20%;
+
+}
+
+.button1{
+    background-color: #279EA0;
+    color: white;
+    border: 2px solid #279EA0;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 8px;
+   
+}
