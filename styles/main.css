@@ -1,49 +1,48 @@
-body{
+body {
     margin: 0px;
 }
 
-.background{
+.background {
     background-image: url(http://wallpaper-gallery.net/images/windows-background-wallpaper/windows-background-wallpaper-19.jpg);
     display: flex;
     background-size: cover;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100vw;
 }
 
-.background-overlay{
+.background-overlay {
     margin-top: 90px;
 }
 
-.emoji{
+.emoji {
     width: 15px;
     height: 15px;
 }
 
-
-.left{
+.left {
     position: absolute;
     right: 50px;
 }
 
-.right{
+.right {
     position: relative;
     left: 500px;
     float: right;
 }
 
-
-.columns{
-    margin-top:50px;
+.columns {
+    margin-top: 50px;
 }
 
-.column1{
+.column1 {
     text-align: left;
     margin-left: 20%;
-
 }
 
-.button1{
+.button1 {
     background-color: #279EA0;
     color: white;
     border: 2px solid #279EA0;
@@ -51,5 +50,20 @@ body{
     margin-top: 20px;
     margin-left: 45px;
     border-radius: 8px;
-   
+}
+
+.images-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    flex: 0 1 1;
+}
+
+.image-container img {
+    width: 110%;
+    height: auto;
 }
