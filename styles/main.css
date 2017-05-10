@@ -1,9 +1,19 @@
 body {
     margin: 0px;
+    position: relative;
+}
+
+.background-img {
+    background-image: url(http://wallpaper-gallery.net/images/windows-background-wallpaper/windows-background-wallpaper-19.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: 0.5;
+    left: 0;
 }
 
 .background {
-    background-image: url(http://wallpaper-gallery.net/images/windows-background-wallpaper/windows-background-wallpaper-19.jpg);
     display: flex;
     background-size: cover;
     flex-direction: column;
