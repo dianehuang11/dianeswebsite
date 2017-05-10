@@ -61,6 +61,7 @@ body {
 
 .image-container {
     flex: 0 1 1;
+    overflow: hidden;
 }
 
 .image-container img {
